@@ -1,0 +1,35 @@
+{
+  "name": "djplanner-server",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "node server.js",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "core-js": "^2.4.1",
+    "eslint": "^4.13.0",
+    "express": "^4.16.2",
+    "method-override": "^2.3.10",
+    "mongoose": "^4.13.6",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7",
+    "rxjs": "^5.5.2",
+    "zone.js": "^0.8.14"
+  },
+  "devDependencies": {
+    "@types/node": "~6.0.60",
+    "ts-node": "~3.2.0",
+    "tslint": "~5.7.0",
+    "typescript": "~2.4.2"
+  }
+}
