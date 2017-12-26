@@ -7,7 +7,8 @@ var Schema = mongoose.Schema;
 var schema = new mongoose.Schema({
 	firstName: 'string',
 	lastName: 'string',
-	telephone: 'string'
+	telephone: 'string',
+	createdDate: {type : Date, default: Date.now()}
 });
 
 var client = mongoose.model('client', schema);

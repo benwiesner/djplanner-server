@@ -29,7 +29,8 @@ router.post('/', function(req, res) {
 	var newClient = new client({
 		firstName : req.body.firstName,
 		lastName : req.body.lastName,
-		telephone: req.body.telephone
+		telephone: req.body.telephone,
+		createdDate : Date.now()
 	})
 	newClient.save();
 	//Send Back
